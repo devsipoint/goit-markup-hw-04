@@ -223,7 +223,8 @@ img {
   font-style: normal;;
 }
 
-/* hero section */
+/* HER section */
+
 /* .hero-container {
   display: flex;
   align-items: center;
@@ -238,16 +239,28 @@ img {
 } */
 
 .hero {
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: var(--main-bg-color-dk);
   margin-right: auto;
   margin-left: auto;
-  max-width: 1440px;
-  
-  
+ 
+  background-color: var(--main-bg-color-dk);
+  background-image: linear-gradient(
+    rgba(8, 19, 236, 0.6),
+    rgb(249, 237, 12, 0.7)),  
+    url(../images/hero/hero-bg-img-opt.jpg);
+     /* GREY */
+/* background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 
 }
+
+
 .hero-header {
   width: 494px;
   margin-right: auto;
