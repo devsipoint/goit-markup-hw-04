@@ -310,6 +310,28 @@ img {
     flex-basis: calc((100% - 24px * 3) / 4);  
   }
 
+  .features-icon-box {
+  width: 264px;
+  height: 112px;
+  background-color: var(--main-bg-color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+/* 
+  .features-icon-link { 
+    
+  }
+
+  .features-icon {
+   
+  } */
+
+  
+
 .features-title {
   font-style: normal;
   font-weight: 500;
@@ -409,6 +431,20 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-card-icons {
+  display: flex;
+}
+
+.team-card-icon-link {
+  display: block;
+  border-radius: 100%;
+  background-color: var(--btn-bgc-color-iris);
+  width: 100%;
+  height: 100%;
+}
+
+
 
 /* footer section */
 
