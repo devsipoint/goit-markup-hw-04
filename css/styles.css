@@ -658,13 +658,6 @@ background-image: linear-gradient(
 /* portfolio cards */
 
 
-
-.portfolio-item:hover  {
-  
-}
-   
-
-
 .portfolio-list {
   display: flex;
   flex-direction: row;
