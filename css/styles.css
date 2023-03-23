@@ -496,20 +496,17 @@ background-image: linear-gradient(
   width: 168px;
   height: 88px;
   /* background-color: var(--main-bg-color-cloud); */ 
-  border: 1px;
+  border: 1px solid #8E8F99;
   border-radius: 4px;
-  border-color: #8E8F99;
-  border-style: double;
   display: flex;
   align-items: center;
   justify-content: center;
   } 
 
-  .customers-icon-box:hover
-  .customers-icon-box:focus {
-    border-color: var(--btn-bgc-color-ocean)
-  }
-
+  .customers-icon-link:hover,
+  .customers-icon-link:focus  {
+  border: 1px solid var(--btn-bgc-color-ocean);
+}
 /* .customers-icon-link {
   width: 104px;
   height: 56px;
@@ -518,7 +515,8 @@ background-image: linear-gradient(
   fill: #8E8F99;
 }
 
-.customers-icon:hover {
+.customers-icon-link:hover .customers-icon,
+.customers-icon-link:focus .customers-icon {
   fill: var(--btn-bgc-color-ocean);
   
 } 
@@ -602,7 +600,7 @@ background-image: linear-gradient(
   
 }
 
-.footer-icon-link:hover
+.footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: #31D0AA;
 
@@ -684,7 +682,6 @@ background-image: linear-gradient(
 
  .portfolio-link:hover,
  .portfolio-link:focus {
-  border: 0.5px solid #F4F4FD;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
  }
  
